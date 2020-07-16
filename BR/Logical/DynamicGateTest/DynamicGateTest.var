@@ -1,0 +1,33 @@
+(********************************************************************
+ * COPYRIGHT -- KRONES AG
+ ********************************************************************
+ * Program: DynamicGateTest
+ * File: DynamicGateTest.var
+ * Author: k1008014
+ * Created: April 21, 2019
+ ********************************************************************
+ * Local variables of program DynamicGateTest
+ ********************************************************************)
+VAR
+	Var_1 : DINT;
+	Var_2 : DINT;
+	Var_3 : DINT;
+	LogicDynamicGate_0 : LogicDynamicGate;
+END_VAR
+VAR RETAIN
+	LogicGate_Data_1 : ARRAY[0..25] OF USINT;
+	LogicGate_Data_2 : ARRAY[0..25] OF USINT;
+	LogicGate_Data_3 : ARRAY[0..25] OF USINT;
+	LogicGate_Data_4 : ARRAY[0..25] OF USINT;
+	LogicGate_Data_5 : ARRAY[0..25] OF USINT;
+END_VAR
+VAR
+	Var_4 : DINT;
+END_VAR
+VAR RETAIN
+	DynamicGate_1_Par : LogDynConfiguration;
+END_VAR
+VAR
+	Bol_4 : BOOL;
+	DownloadGateRecipe : BOOL;
+END_VAR
